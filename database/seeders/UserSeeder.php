@@ -16,8 +16,6 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        User::truncate();
-        die;
         $faker = Factory::create('ru_RU');
         $data = [];
 
